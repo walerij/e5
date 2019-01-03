@@ -3,87 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
     <title>run</title>
 </head>
 <body>
-   <style>
-     .card-header
-       {
-           background: #229702;
-           color: white;
-       }
-       .example .card-header{
-           
-           background: black;
-           padding: 0.5em;
-           
-       }
-       .example{
-           width: 20em;
-           margin: 20px;
-       }
-       .example .card-body
-       {
-           background: gray;
-           margin: 0;
-       }
-       
-       .using_run{
-           color: red;
-       }
-       textarea .text_run
-       {
-           color: gold;
-       }
-       
-       .class_run
-       {
-           color:green;
-       }
-       
-       
-    </style>
+   
    <div class="container">
        <div class="row">
           
           
           <div class="card card-primary">
-              
+              <div class="card-header">
+                  Задача 1 - Сумма
+                    <div class="btn-group" style="float:right;">
+                          <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            C#
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">C#</a>
+                            <a class="dropdown-item" href="#">Java</a>
+                            <a class="dropdown-item" href="#">php</a>
+                           
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">other</a>
+                          </div>
+                        </div>
+              </div>
               <div class="card-body">
-                 <div class="row">
-                     <ul class="nav nav-pills">
-                      <li class="nav-item">
-                        <a class="nav-link active" href="#">C#</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Java</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">php</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">c++</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">js</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">WEB</a>
-                      </li>
-                    </ul>
-                 </div>
-                 <div class="row">
-                           <h3>&nbsp</h3> 
-                   </div>
+                
                    <div class="row">
                      <div class="col-sm">
+                          
                          <div class="row">
-                             <textarea name="comment" cols="80" rows="10" style="background: black; color: white; font-family: monospace">
- using:
+                          
+                        </div>
+                        <div class="row">
+                          
+                             <textarea name="comment" cols="80" rows="10" style="background: black; color: white; font-family: monospace"> using:
     public class main
            {
               Console.WriteLine("Robot Sharp");
@@ -93,28 +54,51 @@
                                   
                                  
                              </textarea>
-                         </div>
-                         <div class="row">
-                            
-                         </div>
-                         <div class="row">
-                             
-                         </div>
-                         <div class="row">
-                            <a href="#" class="pg-warning">
-                                 <i class="far fa-comment-alt"></i>
-                             комментарии
-                            </a>
-                            
-                         </div>
+                         
+                        </div>
                      </div>
-                     <div class="col-sm">
-                         <button class="btn btn-danger">Запуск</button>
+                     <div class="col-sm" style="padding-left: 2.5em;">
+                           <div class="row">
+                                <button class="btn btn-danger">Решать задачу</button>
+                           </div>
+                           <div class="row">
+                            
+                              &nbsp;
+                             </div>
+                           <div class="row">
+                             <h2>
+                                <i class="fas fa-thumbs-up"></i>
+                                   Тесты
+                             </h2>
+                           </div>
                           
+                          <div class="row">
+                             <ul class="nav nav-pills">
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#">1</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"> 2</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"> 3</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"> 4</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"> 5</a>
+                              </li>
+                             
+                            </ul>
+                         </div>
                           <div class="row">
                             <div class="card  card-block example" >
                                
-                                
+                                <div class="card-header">
+                                    <i class="far fa-hand-point-right"></i>
+                                     Начальные данные
+                                </div>
                                 <div class="card-body">
                                     <div class="row">
                                         <pre>
@@ -129,7 +113,10 @@
                            </div>
                           <div class="row">
                             <div class="card  card-block example">
-                                
+                                <div class="card-header">
+                                   <i class="far fa-file-code"></i>
+                                    Результат
+                                </div>
                                 <div class="card-body">
                                     <div class="row">
                                         85

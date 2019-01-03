@@ -1,0 +1,23 @@
+.card-header
+       {
+           background: #28a745;
+           color: white;
+       }
+       .example .card-header{
+           
+           background: black;
+           padding: 0.5em;
+           
+       }
+       .example{
+           width: 20em;
+           border: 1px solid black;
+           margin-top: 1.5em;
+          
+       }
+       .example .card-body
+       {
+           background: white;
+           margin: 0;
+           height: 7em;
+       }
